@@ -1,0 +1,11 @@
+name: BanSystem
+version: 1.0
+main: com.samuelking.bansystem.BanSystemPlugin
+api-version: 1.21
+commands:
+  ban:
+    usage: /ban <Spieler> <Zeit> <Grund>
+  ipban:
+    usage: /ipban <Spieler> <Zeit> <Grund>
+  unban:
+    usage: /unban <Spieler>
